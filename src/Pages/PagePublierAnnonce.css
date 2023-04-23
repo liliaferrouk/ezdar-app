@@ -1,0 +1,164 @@
+.pagepublierannonce > .header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: #000000;
+    background-color: #DBEDEF;
+    padding: 0px 0px;
+    
+    position: sticky;
+    top:0;
+    z-index: 100;
+  }
+
+  .rubon-gris{
+    position: relative;
+    justify-content: space-between;
+    background-color: #E5E7E6;
+    width: 80%;
+    margin: auto;
+    padding: 10px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+  }
+
+.publier-annonce-titre{
+ font-style: normal;
+ font-weight: 900;
+ font-size: 20px;
+ line-height: 5px;
+ text-align: center;
+ text-decoration-line: underline;
+ color: #326368;
+}
+.form > p{
+  text-decoration-line: underline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: #5FACB4;
+  margin-top: 20px;
+}
+.label{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  color: #5FACB4;
+}
+
+input{
+  box-sizing: border-box;
+  width: 80%;
+  height: 30px;
+  text-indent: 3%;
+background: rgba(219, 237, 239, 0.45);
+border: 1px solid rgba(174, 184, 185, 0.5);
+border-radius: 9px;
+}
+.inputDescription{
+ width: 100%;
+ height: 90px;
+}
+.choix{
+  box-sizing: border-box;
+  width: 80%;
+  height: 30px;
+  text-indent: 3%;
+background: rgba(219, 237, 239, 0.45);
+border: 1px solid rgba(174, 184, 185, 0.5);
+border-radius: 9px;
+}
+.btnChoisirSurMap{
+  display: flex;
+  align-items: center;
+  background: rgba(219, 237, 239, 0.45);
+border: 1px solid rgba(174, 184, 185, 0.5);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+width: 80%;
+cursor: pointer;
+}
+.contacts{
+  margin-top: 15px;
+  margin-left: 20%;
+}
+
+.importPhotos{
+  height: 220px;
+  position: relative;
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+  width: 100%;
+  background: #E5E7E6;
+border: 1px dashed #000000;
+border-radius: 20px;
+flex-direction: column;
+    gap: 4px;
+    flex-grow: 1;
+}
+.importPhotos > h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: -40px;
+}
+.importPhotos > p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 5px;
+  margin-top: -30px;
+}
+.lesDeuxButtons{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 35%;
+  margin-top: 25px;
+}
+.formBtnAnnuler{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #FFFFFF;
+border: 1px solid #326368;
+box-shadow: 0px 20px 45px rgba(54, 104, 158, 0.2);
+border-radius: 90px;
+font-style: normal;
+font-weight: 900;
+font-size: 10px;
+line-height: 22px;
+text-align: center;
+color: #326368;
+width: 15%;
+cursor: pointer;
+margin-right: 5%;
+}
+.formBtnPublier{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #326368;
+border: 1px solid #326368;
+box-shadow: 0px 20px 45px rgba(54, 104, 158, 0.2);
+border-radius: 90px;
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+width: 30%;
+cursor: pointer;
+}
+.laMapLocalisation{
+  width: 500px;
+  height: 300px;
+  margin-left: 15%;
+  background-color: #326368;
+}

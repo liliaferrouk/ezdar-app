@@ -1,0 +1,30 @@
+ .headerMonProfil{
+    /* display: flex;
+    align-items: center; */
+    height: 140px;
+    color: #000000;
+    background-color: #DBEDEF;
+    padding: 0px 0px;
+    
+    position: sticky;
+    top:0;
+    z-index: 100;
+ }
+
+ .headerMonProfil > h2, h5 {
+    margin-top: 5px;
+   margin-left: 10%;
+ }
+ .titremesannonces{
+    font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 48px;
+text-align: center;
+color: #326368;
+margin-top: -20px;
+ }
+ .deletebtn{
+    margin-left: 87%;
+    cursor: pointer;
+ }
